@@ -13,8 +13,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 } ?>
 <div id="wtwp_basic_tabs" class="wtwp-vtab-cnt wtwp_basic_tabs wtwp-clearfix">
 	
-	<h3 style="text-align:center">Compare <span class="wtwp-blue">"WP Testimonials with rotator widget"</span> Free VS Pro</h3>
-
 	<!-- <div class="wtwp-deal-offer-wrap">
 		<div class="wtwp-deal-offer">
 			<div class="wtwp-inn-deal-offer">
@@ -29,16 +27,22 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 	</div> -->
 
-	<div class="wtwp-deal-offer-wrap">
+	<!-- <div class="wtwp-deal-offer-wrap">
 		<div class="wtwp-deal-offer"> 
 			<div class="wtwp-inn-deal-offer">
 				<h3 class="wtwp-inn-deal-hedding"><span>Try WP Testimonials with Rotator Widget Pro</span> in Essential Bundle Free For 5 Days.</h3>
 			</div>
 			<div class="wtwp-deal-free-offer">
-				<a href="<?php echo esc_url( WTWP_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wtwp-sf-free-btn"><span class="dashicons dashicons-cart"></span> Try Pro For 5 Days Free</a>
+				<a href="<?php // echo esc_url( WTWP_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wtwp-sf-free-btn"><span class="dashicons dashicons-cart"></span> Try Pro For 5 Days Free</a>
 			</div>
 		</div>
+	</div> -->
+
+	<div class="wtwp-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( WTWP_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( WTWP_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
 	</div>
+
+	<h3 style="text-align:center">Compare <span class="wtwp-blue">"WP Testimonials with rotator widget"</span> Free VS Pro</h3>
 
 	<table class="wpos-plugin-pricing-table">
 		<colgroup></colgroup>
@@ -200,14 +204,19 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 	</div> -->
 
-	<div class="wtwp-deal-offer-wrap">
+	<!-- <div class="wtwp-deal-offer-wrap">
 		<div class="wtwp-deal-offer"> 
 			<div class="wtwp-inn-deal-offer">
 				<h3 class="wtwp-inn-deal-hedding"><span>Try WP Testimonials with Rotator Widget Pro</span> in Essential Bundle Free For 5 Days.</h3>
 			</div>
 			<div class="wtwp-deal-free-offer">
-				<a href="<?php echo esc_url( WTWP_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wtwp-sf-free-btn"><span class="dashicons dashicons-cart"></span> Try Pro For 5 Days Free</a>
+				<a href="<?php // echo esc_url( WTWP_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wtwp-sf-free-btn"><span class="dashicons dashicons-cart"></span> Try Pro For 5 Days Free</a>
 			</div>
 		</div>
+	</div> -->
+
+	<div class="wtwp-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( WTWP_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( WTWP_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
 	</div>
+
 </div>

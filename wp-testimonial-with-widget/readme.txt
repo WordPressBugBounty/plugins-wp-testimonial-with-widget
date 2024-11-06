@@ -2,8 +2,8 @@
 Contributors: wponlinesupport, anoopranawat, pratik-jain, piyushpatel123, patelketan
 Tags: testimonial, Testimonial, testimonials, Testimonials, widget,  Best testimonial slider, Responsive testimonial slider, client testimonial slider, easy testimonial slider, testimonials with widget, wordpress testimonial with widget, testimonial rotator, testimonial slider, Testimonial slider , testimonial with shortcode, client testimonial, client, customer, quote, shortcodes
 Requires at least: 4.0
-Tested up to: 6.6.1
-Stable tag: 3.5.1
+Tested up to: 6.6.2
+Stable tag: 3.5.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -179,6 +179,9 @@ Best Testimonial Slider and Showcase plugin for WordPress website. It is a devel
 8. Also work with Gutenberg shortcode block. 
 
 == Changelog ==
+
+= 3.5.2 (06, Nov 2024) =
+* [*] Check compatibility with WordPress version 6.6.2
 
 = 3.5.1 (30, July 2023) =
 * [*] Check compatibility with WordPress version 6.6.1

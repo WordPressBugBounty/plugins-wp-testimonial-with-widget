@@ -187,7 +187,7 @@ if ( !defined( 'ABSPATH' ) ) {
 								<li><?php esc_html_e('100% Multi language', 'wp-testimonial-with-widget'); ?></li>
 							</ul>
 							<div class="upgrade-to-pro"><?php esc_html_e( 'Gain access to', 'wp-testimonial-with-widget'); ?> <strong><?php esc_attr_e('WP testimonials with rotator widget', 'wp-testimonial-with-widget'); ?></strong></div>
-							<a class="button button-primary wpos-button-full button-orange" href="<?php echo esc_url(WTWP_PLUGIN_LINK_UNLOCK); ?>" target="_blank"><?php esc_html_e('Try Pro For 5 Days Free', 'wp-testimonial-with-widget'); ?></a>
+							<a class="button button-primary wpos-button-full button-orange" href="<?php echo esc_url(WTWP_PLUGIN_LINK_UNLOCK); ?>" target="_blank"><?php esc_html_e('Try Pro with Back Friday Deals', 'wp-testimonial-with-widget'); ?></a>
 						</div><!-- .inside -->
 					</div><!-- #general -->
 				</div><!-- .meta-box-sortables -->

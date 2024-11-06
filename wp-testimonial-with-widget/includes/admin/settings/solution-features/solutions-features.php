@@ -20,6 +20,8 @@ $tab = isset( $_GET['tab'] ) ? '#'.$_GET['tab'] : '#wtwp_welcome_tabs';
 	<h2  class="wpos-main-heading-tittle">Welcome to <span class="wtwp-blue">WP Testimonials with rotator widget</span></h2>
 	<style>
 
+		.wpos-plugin-pricing-table{margin-bottom: 20px;}
+
 		.wpos-new-feature{font-size: 10px; color: #fff; font-weight: bold; background-color: #03aa29; padding:1px 4px; font-style: normal;}
 
 		/**** Solution Features CSS ****/
