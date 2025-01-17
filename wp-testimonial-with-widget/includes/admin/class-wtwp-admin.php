@@ -80,7 +80,7 @@ class Wtwp_Admin {
 			}
 
 			$html .= '<tr class="wtwp-pro-feature"><th scope="row">Rating <span class="wtwp-pro-tag">PRO</span></th><td><input name="testimonial_rating" type="text" class="regular-text" value="" disabled="" />' . "<br/>";
-			$html .= '<span class="description">' . __( 'Select testimonial rating.', 'wp-testimonial-with-widget' ) . '</span><strong>'.' '. sprintf( __( 'Try This PRO Features with <a href="%s" target="_blank">Early Back Friday Deals</a> on lifetime plan. FLAT $100 USD OFF.', 'wp-testimonial-with-widget' ), WTWP_PLUGIN_LINK_UNLOCK);
+			$html .= '<span class="description">' . __( 'Select testimonial rating.', 'wp-testimonial-with-widget' ) . '</span><strong style="color:#2ECC71; font-weight: 700;">'.' '. sprintf( __( ' <a href="%s" target="_blank" style="color:#2ECC71;">Upgrade To Pro</a> and Get Designs, Optimization, Security, Backup, Migration Solutions @ one stop.', 'wp-testimonial-with-widget'), WTWP_PLUGIN_LINK_UNLOCK);
 			$html .= '</strong></td><tr/>' . "\n";
 
 			$html .= '</tbody>' . "\n";
@@ -172,10 +172,10 @@ class Wtwp_Admin {
 		add_submenu_page( 'edit.php?post_type='.WTWP_POST_TYPE, __( 'How it works, our plugins and offers', 'wp-testimonial-with-widget' ), __( 'How It Works', 'wp-testimonial-with-widget' ), 'manage_options', 'wptww-designs', array($this, 'wptww_designs_page') );
 
 		// Setting page
-		add_submenu_page( 'edit.php?post_type='.WTWP_POST_TYPE, __( 'Overview - WP Testimonials with rotator widget', 'wp-testimonial-with-widget' ), '<span style="color:#2ECC71">'. __( 'Overview', 'wp-testimonial-with-widget' ).'</span>', 'manage_options', 'wtwp-solutions-features', array( $this, 'wtwp_solutions_features_page' ) );
+		add_submenu_page( 'edit.php?post_type='.WTWP_POST_TYPE, __( 'Overview - WP Testimonials with rotator widget', 'wp-testimonial-with-widget' ), __( 'Overview', 'wp-testimonial-with-widget' ), 'manage_options', 'wtwp-solutions-features', array( $this, 'wtwp_solutions_features_page' ) );
 
 		// Register plugin premium page
-		add_submenu_page( 'edit.php?post_type='.WTWP_POST_TYPE, __( 'Upgrade To PRO - WP Testimonials with rotator widget', 'wp-testimonial-with-widget' ), '<span style="color:#ff2700">'.__( 'Upgrade To PRO – Early Back Friday Deals', 'wp-testimonial-with-widget' ).'</span>', 'manage_options', 'wtwp-premium', array( $this, 'wtwp_premium_page' ) );
+		add_submenu_page( 'edit.php?post_type='.WTWP_POST_TYPE, __( 'Upgrade To PRO - WP Testimonials with rotator widget', 'wp-testimonial-with-widget' ), '<span style="color:#2ECC71">'.__( 'Upgrade To PRO', 'wp-testimonial-with-widget' ).'</span>', 'manage_options', 'wtwp-premium', array( $this, 'wtwp_premium_page' ) );
 	}
 
 	/**

@@ -14,9 +14,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <div id="wtwp_themes_tabs" class="wtwp-vtab-cnt wtwp_themes_tabs wtwp-clearfix">
 	
-	<div class="wtwp-black-friday-banner-wrp">
-		<a href="<?php echo esc_url( WTWP_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( WTWP_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
-	</div>
+	<!-- <div class="wtwp-black-friday-banner-wrp">
+		<a href="<?php // echo esc_url( WTWP_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php // echo esc_url( WTWP_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	</div> -->
 
 	<!-- Start - WP Testimonials with rotator widget - Features -->
 	<div class="wtwp-features-section">

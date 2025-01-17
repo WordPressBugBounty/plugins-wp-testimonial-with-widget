@@ -14,9 +14,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <div id="wtwp_unlock_tabs" class="wtwp-vtab-cnt wtwp_unlock_tabs wtwp-clearfix">
 
-	<div class="wtwp-black-friday-banner-wrp">
-		<a href="<?php echo esc_url( WTWP_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( WTWP_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
-	</div>
+	<!-- <div class="wtwp-black-friday-banner-wrp">
+		<a href="<?php // echo esc_url( WTWP_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php // echo esc_url( WTWP_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	</div> -->
 
 	<h2 style="font-size: 24px; text-align: center; color: #6c63ff;">Bundle Deal Details</h2>
 	<table class="wpos-plugin-list">
