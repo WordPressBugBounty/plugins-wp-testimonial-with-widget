@@ -1,13 +1,13 @@
 === Testimonial Grid and Testimonial Slider plus Carousel with Rotator Widget ===
-Contributors: wponlinesupport, anoopranawat, pratik-jain, piyushpatel123, patelketan
+Contributors: essentialplugin
 Tags: testimonial, Best testimonial slider and widget, client testimonial slider, testimonials with widget, testimonial rotator,
 Requires at least: 4.0
-Tested up to: 6.7.1
-Stable tag: 3.5.3
+Tested up to: 6.8.1
+Stable tag: 3.5.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A quick, easy way to add and display responsive, clean client's testimonial on your website using a shortcode or a widget. Also work with Gutenberg shortcode block. 
+A quick, easy way to add and display responsive, clean client's testimonial on your website using a shortcode, widget or Gutenberg block.
 
 == Description ==
 
@@ -179,6 +179,9 @@ Best Testimonial Slider and Showcase plugin for WordPress website. It is a devel
 8. Also work with Gutenberg shortcode block. 
 
 == Changelog ==
+
+= 3.5.4 (16, May 2025) =
+* [*] Check compatibility with WordPress version 6.8.1
 
 = 3.5.3 (17, January 2025) =
 * [*] Check compatibility with WordPress version 6.7.1

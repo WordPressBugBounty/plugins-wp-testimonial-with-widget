@@ -5,20 +5,17 @@
  * Text Domain: wp-testimonial-with-widget
  * Domain Path: /languages/
  * Description: Easy to add and display client's testimonial on your website with rotator widget. Also work with Gutenberg shortcode block.
- * Author: WP OnlineSupport, Essential Plugin
- * Version: 3.5.3
- * Author URI: https://www.essentialplugin.com/wordpress-plugin/wp-testimonial-with-widget/
+ * Author: Essential Plugin
+ * Version: 3.5.4
+ * Author URI: https://www.essentialplugin.com
  *
  * @package WP Testimonials with rotator widget
- * @author WP OnlineSupport
+ * @author Essential Plugin
  */
 
 if( ! defined( 'WTWP_VERSION' ) ) {
-	define( 'WTWP_VERSION', '3.5.3' ); // Version of plugin
+	define( 'WTWP_VERSION', '3.5.4' ); // Version of plugin
 }
-// if( ! defined( 'WTWP_NAME' ) ) {
-// 	define( 'WTWP_NAME', 'Testimonials with rotator widget' ); // Version of plugin
-// }
 if( ! defined( 'WTWP_DIR' ) ) {
 	define( 'WTWP_DIR', dirname( __FILE__ ) ); // Plugin dir
 }
@@ -31,23 +28,12 @@ if( ! defined( 'WTWP_POST_TYPE' ) ) {
 if( ! defined( 'WTWP_CAT' ) ) {
 	define( 'WTWP_CAT', 'testimonial-category' ); // Plugin category name
 }
-
-// if( ! defined( 'WTWP_PLUGIN_BUNDLE_LINK' ) ) {
-// 	define( 'WTWP_PLUGIN_BUNDLE_LINK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Testimonials&utm_campaign=Welcome-Screen' ); // Plugin link
-// }
-
-// if( ! defined( 'WTWP_PLUGIN_LINK_UNLOCK' ) ) {
-// 	define( 'WTWP_PLUGIN_LINK_UNLOCK', 'https://www.essentialplugin.com/essential-plugin-bundle-pricing/?utm_source=WP&utm_medium=Testimonials&utm_campaign=Features-PRO' ); // Plugin link
-// }
-
 if( ! defined( 'WTWP_PLUGIN_LINK_UPGRADE' ) ) {
 	define( 'WTWP_PLUGIN_LINK_UPGRADE', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Testimonials&utm_campaign=Upgrade-PRO' ); // Plugin Check link
 }
-
 if( ! defined( 'WTWP_PLUGIN_BUNDLE_LINK' ) ) {
 	define('WTWP_PLUGIN_BUNDLE_LINK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Testimonials&utm_campaign=Welcome-Screen'); // Plugin link
 }
-
 if( ! defined( 'WTWP_PLUGIN_LINK_UNLOCK' ) ) {
 	define('WTWP_PLUGIN_LINK_UNLOCK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Testimonials&utm_campaign=Features-PRO'); // Plugin link
 }
